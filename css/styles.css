@@ -1,0 +1,142 @@
+:root {
+    --text-color: #434455;
+    --title-color: #2e2f42;
+    --hover-color: #404bbf;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.small-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-header {
+    color: var(--title-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.header-link:is(:hover, :focus) {
+    color: var(--hover-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: var(--text-color);
+}
+
+.address-link:is(:hover, :focus) {
+    color: var(--hover-color);
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-footer {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.hero-button:is(:hover, :focus) {
+    background-color: var(--hover-color);
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.filter-button {
+    cursor: pointer;
+    color: #4d5ae5;
+    background-color: #f4f4fd;
+}
+
+.filter-button:is(:hover, :focus) {
+    color: #ffffff;
+    background-color: var(--hover-color);
+}
