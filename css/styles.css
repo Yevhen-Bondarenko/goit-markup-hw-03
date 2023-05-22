@@ -112,7 +112,8 @@ body {
 }
 
 .logo-second {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin: 0 2px;
     color: var(--title-color);
 }
 
